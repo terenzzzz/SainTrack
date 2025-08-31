@@ -1,0 +1,1 @@
+import{H as e}from"../../assets/index-e922237f.js";class r extends e{constructor(){super(),this.baseUrl=this.baseUrl={}.VITE_SERVER_API||"http://192.168.12.109"}}const s=new r;function u(t){return s.request({method:"get",url:"/get_order_list",data:t})}export{u as O};
