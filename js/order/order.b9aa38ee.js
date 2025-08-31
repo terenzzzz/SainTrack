@@ -1,0 +1,1 @@
+import{H as r}from"../../assets/index-b06ef260.js";class s extends r{constructor(){super(),this.baseUrl=this.baseUrl={}.VITE_SERVER_API||"http://192.168.12.109"}}const e=new s;function i(t){return e.request({method:"get",url:"/get_order_list",data:t})}function o(t){return e.request({method:"get",url:"/get_email_list",data:t})}export{o as E,i as O};
